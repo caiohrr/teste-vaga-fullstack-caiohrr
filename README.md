@@ -32,3 +32,10 @@ Você foi designado para desenvolver uma aplicação que deve lidar com grandes 
 A conclusão bem-sucedida deste teste será avaliada com base na implementação eficiente de conceitos como tratamento de dados em larga escala, comunicação assíncrona, gerenciamento de estado, manipulação de CSV, escolha adequada de tecnologias e boas práticas de desenvolvimento.
 
 Boa sorte!
+
+# Solução
+
+## Execução
+A solução foi implementada como um simples servidor local, que deve ser inicializado com o comando:
+```node app.js```
+Ele deve ser acessado porta 3000.
