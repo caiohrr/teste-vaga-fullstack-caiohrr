@@ -37,5 +37,7 @@ Boa sorte!
 
 ## Execução
 A solução foi implementada como um simples servidor local, que deve ser inicializado com o comando:
-```node app.js```
-Ele deve ser acessado porta 3000.
+```
+node app.js
+```
+Ele deve ser acessado na porta 3000 (http://localhost:3000/).
