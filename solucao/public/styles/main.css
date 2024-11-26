@@ -1,0 +1,97 @@
+body {
+  font: 20px Arial, sans-serif;
+  text-align: center;
+}
+
+:root {
+  --base-color: #246b44;
+  --hover-color: #008f40;
+  --focus-shadow: rgba(46, 164, 79, .4);
+  --disabled-color: #94d3a2;
+  --active-color: #298e46;
+  --border-color: rgba(27, 31, 35, .15);
+  --text-color: #fff;
+}
+
+.button {
+  margin: 20px;
+  appearance: none;
+  background-color: var(--base-color);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: var(--text-color);
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button:hover {
+  background-color: var(--hover-color);
+}
+
+.button:focus {
+  box-shadow: var(--focus-shadow) 0 0 0 3px;
+  outline: none;
+}
+
+.button:disabled {
+  background-color: var(--disabled-color);
+  border-color: var(--border-color);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button:active {
+  background-color: var(--active-color);
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+.button.blue {
+  --base-color: #24466b;
+  --hover-color: #1c4f80;
+  --focus-shadow: rgba(28, 79, 128, .4);
+  --disabled-color: #a4c4e0;
+  --active-color: #1d4168;
+}
+
+.button.orange{
+  --base-color: #e69419;
+  --hover-color: #ff9902;
+  --focus-shadow: rgba(28, 79, 128, .4);
+  --disabled-color: #ffebcc;
+  --active-color: #ffad33;
+}
+input[type="file"] {
+  display: none; 
+}
+
+.file-upload {
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.file-name {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #333;
+  vertical-align: middle;
+}

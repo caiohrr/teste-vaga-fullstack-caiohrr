@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "csv": "^6.3.10",
-    "csv-parser": "^3.0.0",
-    "json2csv": "^6.0.0-alpha.2"
-  }
-}

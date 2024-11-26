@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Teste Kronoos</title>
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+
+    <p>
+      Upload e tratamento de arquivo csv.
+    </p>
+
+    <h1>Upload file</h1>
+    <form action="/upload" method="POST" enctype="multipart/form-data" id="fileForm">
+
+      <label class="button blue file-upload">
+        Choose File 
+        <input type="file" name="csvfile" id="csvfile" accept=".csv" onchange="updateFileName(this)" required>
+      </label>
+      <span class="file-name">
+        No file chosen
+      </span>
+      <br>
+
+      <button class="button green" type="submit">Upload File</button>
+    </form>
+    <br>
+
+    <button class="button orange" id="download-btn" onclick="window.location.href='/download'">Download File</button>
+
+
+    <script src="/script.js"></script>
+
+  </body>
+</html>

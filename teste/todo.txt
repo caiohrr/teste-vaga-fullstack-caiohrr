@@ -1,8 +1,0 @@
-Done:
-  Conversão de Dados para Moeda Real Brasileira
-
-TODO:
-  Validação de CPF ou CNPJ
-    https://www.calculadorafacil.com.br/computacao/validar-cpf
-    https://www.geradorcnpj.com/algoritmo_do_cnpj.htm
-  Validação de Valor Total e Prestações
